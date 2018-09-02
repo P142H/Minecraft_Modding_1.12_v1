@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cbm",
+  "name": "Chiters Bag Mod",
+  "description": "Mod with very big bags and maybe new lamps.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["P142H"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
