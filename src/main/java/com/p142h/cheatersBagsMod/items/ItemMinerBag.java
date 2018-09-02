@@ -6,10 +6,10 @@ import net.minecraft.item.Item;
 
 public class ItemMinerBag extends Item {
     public ItemMinerBag(int maxStackSize) {
-        this.setFull3D();
-        this.setMaxStackSize(maxStackSize);
-        this.setUnlocalizedName(Reference.CheatersBagItem.MINERBAG.getUnlocalizedName());
-        this.setRegistryName(Reference.CheatersBagItem.MINERBAG.getRegistryName());
-        this.setCreativeTab(CheatersBagsMod.cheatersBagPack);
+        setFull3D();
+        setMaxStackSize(maxStackSize);
+        setUnlocalizedName(Reference.CheatersBagItem.MINER_BAG.getUnlocalizedName());
+        setRegistryName(Reference.CheatersBagItem.MINER_BAG.getRegistryName());
+        setCreativeTab(CheatersBagsMod.cheatersBagPack);
     }
 }

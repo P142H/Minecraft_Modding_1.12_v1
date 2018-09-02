@@ -1,5 +1,6 @@
 package com.p142h.cheatersBagsMod;
 
+import com.p142h.cheatersBagsMod.blocks.ModBlocks;
 import com.p142h.cheatersBagsMod.creativetabs.TabMain;
 import com.p142h.cheatersBagsMod.items.ModItems;
 import com.p142h.cheatersBagsMod.proxy.CommonProxy;
@@ -15,12 +16,14 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class CheatersBagsMod {
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    public static CommonProxy proxy;
+    private static CommonProxy proxy;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         ModItems.init();
         ModItems.register();
+        ModBlocks.init();
+        ModBlocks.register();
         //proxy.preInit(event);
     }
 
@@ -34,13 +37,5 @@ public class CheatersBagsMod {
         proxy.postInit(event);
     }
 
-    public static CreativeTabs cheatersBagPack = new TabMain("cheatersBagPack");
-
-//    private static CreativeTabs cheatersBagPack = new CreativeTabs("com/p142h/cheatersBagPack") {
-//        @Override
-//        public Item getTabIconItem() {
-//            return new ItemStack(itemMinerBag).getItem();
-//        }
-//    };
-
+    public static CreativeTabs cheatersBagPack = new TabMain("Cheater' s BagPack");
 }
