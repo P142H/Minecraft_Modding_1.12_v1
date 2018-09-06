@@ -1,3 +1,5 @@
 item.itemminerbag.name=Miner's Bag
 
 tile.blocksinglelamp.name=Single daylight lamp
+tile.blockdoublelelamp.name=Double daylight lamp
+tile.blocktriplelamp.name=Triple daylight lamp

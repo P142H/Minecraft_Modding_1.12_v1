@@ -10,17 +10,25 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 public class ModBlocks {
 
     public static Block blocksinglelamp;
+    public static Block blockdoublelamp;
+    public static Block blocktriplelamp;
 
     public static void init() {
         blocksinglelamp = new BlockSingleLamp();
+        blockdoublelamp = new BlockDoubleLamp();
+        blocktriplelamp = new BlockTripleLamp();
     }
 
     public static void register() {
         registerBlock(blocksinglelamp);
+        registerBlock(blockdoublelamp);
+        registerBlock(blocktriplelamp);
     }
 
     public static void registerRender() {
         setRender(blocksinglelamp);
+        setRender(blockdoublelamp);
+        setRender(blocktriplelamp);
     }
 
     private static void registerBlock(Block block) {
