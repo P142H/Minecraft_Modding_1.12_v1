@@ -1,7 +1,7 @@
 {
   "variants": {
     "normal": {
-      "model": "cbm:blocksinglelamp"
+      "model": "cbm:blockdoublelamp"
     }
   }
 }

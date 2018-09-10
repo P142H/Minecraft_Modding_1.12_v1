@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "cbm:blocks/blockdoublelamp"
+    "all": "cbm:blocks/blockzed"
   }
 }

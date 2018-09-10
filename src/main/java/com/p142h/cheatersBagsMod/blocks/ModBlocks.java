@@ -12,23 +12,27 @@ public class ModBlocks {
     public static Block blocksinglelamp;
     public static Block blockdoublelamp;
     public static Block blocktriplelamp;
+    public static Block blockzed;
 
     public static void init() {
         blocksinglelamp = new BlockSingleLamp();
         blockdoublelamp = new BlockDoubleLamp();
         blocktriplelamp = new BlockTripleLamp();
+        blocktriplelamp = new BlockZed();
     }
 
     public static void register() {
         registerBlock(blocksinglelamp);
         registerBlock(blockdoublelamp);
         registerBlock(blocktriplelamp);
+        registerBlock(blockzed);
     }
 
     public static void registerRender() {
         setRender(blocksinglelamp);
         setRender(blockdoublelamp);
         setRender(blocktriplelamp);
+        setRender(blockzed);
     }
 
     private static void registerBlock(Block block) {

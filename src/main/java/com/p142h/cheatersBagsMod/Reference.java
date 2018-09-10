@@ -37,7 +37,8 @@ public class Reference {
     public enum CheatersBagBlocks {
         SINGLE_LAMP("blocksinglelamp", "BlockSingleLamp"),
         DOUBLE_LAMP("blockdoublelamp", "BlockDoubleLamp"),
-        TRIPLE_LAMP("blocktriplelelamp", "BlockTripleLamp");
+        TRIPLE_LAMP("blocktriplelamp", "BlockTripleLamp"),
+        ZED("blockzed", "BlockZed");
 
         private String unlocalizedName;
         private String registryName;
